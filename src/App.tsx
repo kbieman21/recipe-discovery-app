@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <h1>Main App</h1>
+      <h1>Recipe Discovery App</h1>
       <NavBar/>
       <Routes>
         <Route path="/" element={<HomePage />} />

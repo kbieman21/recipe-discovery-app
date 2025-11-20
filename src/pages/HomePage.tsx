@@ -16,12 +16,12 @@ console.log("HOME CATEGORIES:", categories);
       <h1>Recipe Categories</h1>
 
       <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-          gap: "20px",
-          marginTop: "20px",
-        }}
+        // style={{
+        //   display: "grid",
+        //   gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+        //   gap: "20px",
+        //   marginTop: "20px",
+        // }}
       >
         {categories.map(cat => (
           <CategoryCard key={cat.idCategory} category={cat} />

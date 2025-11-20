@@ -58,7 +58,7 @@ function NavBar() {
             padding: "8px 15px",
             border: "none",
             borderRadius: "6px",
-            background: "#ff7f50",
+            background: "black",
             color: "white",
             cursor: "pointer",
           }}

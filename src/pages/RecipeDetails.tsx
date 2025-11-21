@@ -46,7 +46,8 @@ function RecipeDetails() {
       <ul>
         {ingredients.map((item, index) => (
           <li key={index}>
-            {item.ingredient} — {item.measure}
+            {/* {item.ingredient} — {item.measure} */}
+             {item.ingredient} - {item.measure}
           </li>
         ))}
       </ul>
